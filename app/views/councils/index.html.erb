@@ -1,0 +1,6 @@
+<table border="1" cellpadding="5">
+<tr><td>No.</td><td>Name</td></tr>
+<% @councils.each do |council| %>
+<tr><td><%= council["number"] %></td><td><%= council["name"] %></td></tr>
+<% end %>
+</table>
